@@ -1,0 +1,32 @@
+# SERVLETQ:what is servlet and jsp?
+Ans: Servlet technology is used to create web application.this is java program used in building a web application .this acts like
+server and enables the program to receive request and send back response.
+
+Q:what is jsp?
+Ans: it is used in building web application and acts as the front end view of the application with user intrest
+the view is responsible for captuuring the user request and forwarding it yo servlet response ans farwarding it to the client
+
+Q:what is the use of HTTPServlet class?
+Ans:The HttpServlet class extends the GenericServlet class and implements Serializable interface. 
+It provides http specific methods such as doGet, doPost, doHead, doTrace etc.
+
+Q:what is the use of doget and dopost method define all parameter?
+Ans:doGet(): this method is designed to get response context from web resource by sending limited amount of input data,
+this response contains response header, response body. 
+doPot(): this method is designed to send unlimited amount of data along with the request to web resource. 
+In doGet(), the parameters are appended to the URL and sent along with header information.
+This does not happen in case of doPost(). In doPost(), the parameters are sent separately. 
+doGet() shall be used when small amount of data and insensitive data like a query has to be sent as a request. 
+->doPost() shall be used when comparatively large amount of sensitive data has to be sent.
+Examples are sending data after filling up a form or sending login id and password.
+
+Q:how to create web page and process the data using html,servlet and jsp?
+Ans:we have created the three pages.
+register.html
+Register.java
+web.xml.
+
+Q:how to use getparameter method?
+Ans:getParameter() method in the servlet class, to retrieve the input values from HTML page.
+it is base concept on retrieving the input data,
+
